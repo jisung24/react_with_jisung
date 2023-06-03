@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <!-- 여기안에 내가 react로 짠 html코드가 들어감 
+      1. react란? 
+      👉 spa웹을 만드는 것을 도와주는 라이브러리 
+      👉 spa(Single Page Application) - 서버에서 html을 만들어서 주는 것이 아니라, 서버로부터 빈 html을 받고, 
+          그 빈 html속을 브라우져가 계속 갈아끼우는 웹 제작 방식
+      👉 spa를 만들기 위해서 react는 client side rendering 방식으로 동작함 
+
+      - 서버가 주는 파일은 <div id="root"></div> 이게 다인데, 어떻게 내용으로 계속 채워질까? 
+      - ❗️bundle.js파일 주목❗️
+
+      - 즉, 맨 처음 렌더링 할 때! 
+      1. 서버에서 빈 html을 받는다. 
+      2. client에서 bundle.js를 다 읽고나서, react를 하나의 js파일로 만들어준 다음! 
+      3. 내가 짠 react코드가 html안에 들어가게 되는 것. 
+
+      - 이후 라우팅 작업을 해도
+      1. spa웹을 만드는 react라서 html을 받아오는 것이 아니라,
+      2. 클라이언트가 bundle.js에서 라우팅주소에 맞는 코드를 찾아서 그리는 것! 
+      -->
+    </div>
+  </body>
+</html>
