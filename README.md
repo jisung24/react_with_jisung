@@ -15,3 +15,7 @@
 ## `REACT란?`
 
 > `SPA`을 만드는 것을 지원하는 라이브러리 + CSR방식으로 동작함
+
+## `REACT 기초 사전 지식`
+
+> `bundle.js` : 내가 짠 react코드를 하나의 javascript파일로 모아줌.
